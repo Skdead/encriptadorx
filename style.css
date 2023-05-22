@@ -1,0 +1,89 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Aqui inician los estilos para el index*/
+
+*{
+    background:  #C1D8DA;
+    font-size: 20px;
+    line-height: 100%;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.textarea{
+    border: none;
+    color: cadetblue;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: cadetblue}
+.textarea:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: aquamarine;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    padding-top: 20px;
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+   background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: darkslategray;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 400ms;
+    margin-top: 40px;
+}
+.btn-encriptar:hover{
+    box-shadow: 5px 5px 30px 5px black;
+}
+.btn-desencriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 400ms;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.btn-desencriptar:hover{
+    box-shadow: 5px 5px 30px 5px black;
+}
+.copiar{
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 50px;
+    transition: 400ms;
+}
